@@ -87,7 +87,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Patrones de Estructuraci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsability", "ChainOfResponsability\ChainOfResponsability.csproj", "{31B8CDFB-4EF7-4E69-A03C-93527D45CC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsabilityExa02", "ChainOfResponsabilityExa02\ChainOfResponsabilityExa02.csproj", "{5CC9F290-F44C-49E7-9761-A3EB51B2DE02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsabilityExa02", "ChainOfResponsabilityExa02\ChainOfResponsabilityExa02.csproj", "{5CC9F290-F44C-49E7-9761-A3EB51B2DE02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of responsibility", "Chain of responsibility", "{CD7B35AF-A068-4812-88F9-9F0D0BE35B13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{C5C92A27-B7D3-4F77-AB4F-6531CFE9496C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandExa02", "CommandExa02\CommandExa02.csproj", "{5FEA3897-A725-42EA-B1D9-05682D1F9522}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +217,14 @@ Global
 		{5CC9F290-F44C-49E7-9761-A3EB51B2DE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC9F290-F44C-49E7-9761-A3EB51B2DE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC9F290-F44C-49E7-9761-A3EB51B2DE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C92A27-B7D3-4F77-AB4F-6531CFE9496C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C92A27-B7D3-4F77-AB4F-6531CFE9496C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C92A27-B7D3-4F77-AB4F-6531CFE9496C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C92A27-B7D3-4F77-AB4F-6531CFE9496C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEA3897-A725-42EA-B1D9-05682D1F9522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEA3897-A725-42EA-B1D9-05682D1F9522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEA3897-A725-42EA-B1D9-05682D1F9522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEA3897-A725-42EA-B1D9-05682D1F9522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +269,8 @@ Global
 		{33131A48-C429-4BD2-94DB-FFAE885909E8} = {154466B9-AA65-478A-8482-43E48827141B}
 		{15264364-A71C-4826-9EF6-B4A3970FC5A4} = {154466B9-AA65-478A-8482-43E48827141B}
 		{154466B9-AA65-478A-8482-43E48827141B} = {5BF6F4C9-95A6-4426-BBAF-061DEB86A06C}
+		{31B8CDFB-4EF7-4E69-A03C-93527D45CC78} = {CD7B35AF-A068-4812-88F9-9F0D0BE35B13}
+		{5CC9F290-F44C-49E7-9761-A3EB51B2DE02} = {CD7B35AF-A068-4812-88F9-9F0D0BE35B13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C846532-63A0-40FD-AC42-62885E226E63}
