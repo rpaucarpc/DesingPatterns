@@ -97,7 +97,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandExa02", "CommandExa0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{7C06BE1A-C948-4EF5-8ECF-035D21796FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterExa2", "InterpreterExa2\InterpreterExa2.csproj", "{6568EF72-86DA-4798-A8AB-139FBA698FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpreterExa2", "InterpreterExa2\InterpreterExa2.csproj", "{6568EF72-86DA-4798-A8AB-139FBA698FA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorExa1", "IteratorExa1\IteratorExa1.csproj", "{91832CA9-81BB-40D7-B0AA-695BCCF10CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorExa2", "IteratorExa2\IteratorExa2.csproj", "{8FD7F5AA-6616-4873-A949-6355DEE820E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +241,14 @@ Global
 		{6568EF72-86DA-4798-A8AB-139FBA698FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6568EF72-86DA-4798-A8AB-139FBA698FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6568EF72-86DA-4798-A8AB-139FBA698FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91832CA9-81BB-40D7-B0AA-695BCCF10CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91832CA9-81BB-40D7-B0AA-695BCCF10CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91832CA9-81BB-40D7-B0AA-695BCCF10CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91832CA9-81BB-40D7-B0AA-695BCCF10CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD7F5AA-6616-4873-A949-6355DEE820E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD7F5AA-6616-4873-A949-6355DEE820E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD7F5AA-6616-4873-A949-6355DEE820E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD7F5AA-6616-4873-A949-6355DEE820E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
