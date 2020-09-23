@@ -14,7 +14,6 @@ namespace ObserverExa2
             vistaVehiculo.Redibuja();
             vehiculo.Precio = 4500.0;
 
-
             VistaVehiculo vistaVehiculo2 = new VistaVehiculo(vehiculo);
             vehiculo.Precio = 5500.0;
         }
